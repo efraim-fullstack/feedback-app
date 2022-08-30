@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-
+import { NavLink } from 'react-router-dom'
 function Header({text, bgColor, textColor}) {
   const headerStyles = {
     backgroundColor: bgColor,
@@ -9,7 +9,9 @@ function Header({text, bgColor, textColor}) {
   return (
     <header style={headerStyles}>
       <div className="container">
+        <NavLink to='/' className='logo-link'>
         <h2>{text}</h2>
+        </NavLink>
       </div>
     </header>
   )

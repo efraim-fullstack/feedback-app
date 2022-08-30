@@ -23,6 +23,11 @@ margin: auto;
 padding: 0 20px;
 }
 
+.logo-link {
+  text-decoration: none;
+  color: #ff6a95;
+}
+
 header {
 height: 70px;
 width: 100%;
@@ -153,6 +158,9 @@ color: #fff;
 width: 100px;
 height: 40px;
 cursor: pointer;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 
 .btn-primary {
